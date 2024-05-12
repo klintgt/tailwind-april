@@ -663,6 +663,10 @@ video {
   inset-inline-end: 0.25rem;
 }
 
+.end-2 {
+  inset-inline-end: 0.5rem;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -679,8 +683,32 @@ video {
   grid-column: span 3 / span 3;
 }
 
+.col-span-6 {
+  grid-column: span 6 / span 6;
+}
+
+.col-span-1 {
+  grid-column: span 1 / span 1;
+}
+
 .row-span-2 {
   grid-row: span 2 / span 2;
+}
+
+.row-span-4 {
+  grid-row: span 4 / span 4;
+}
+
+.row-span-1 {
+  grid-row: span 1 / span 1;
+}
+
+.row-span-3 {
+  grid-row: span 3 / span 3;
+}
+
+.row-span-5 {
+  grid-row: span 5 / span 5;
 }
 
 .row-start-1 {
@@ -693,6 +721,26 @@ video {
 
 .row-start-5 {
   grid-row-start: 5;
+}
+
+.row-start-4 {
+  grid-row-start: 4;
+}
+
+.row-start-2 {
+  grid-row-start: 2;
+}
+
+.row-end-4 {
+  grid-row-end: 4;
+}
+
+.row-end-2 {
+  grid-row-end: 2;
+}
+
+.row-end-3 {
+  grid-row-end: 3;
 }
 
 .float-start {
@@ -1207,6 +1255,14 @@ video {
 
 .grid-rows-\[repeat\(5\2c 200px\)\] {
   grid-template-rows: repeat(5,200px);
+}
+
+.grid-rows-\[repeat\(3\2c 200px\)\] {
+  grid-template-rows: repeat(3,200px);
+}
+
+.grid-rows-2 {
+  grid-template-rows: repeat(2, minmax(0, 1fr));
 }
 
 .flex-row {
